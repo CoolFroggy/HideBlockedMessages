@@ -1,4 +1,4 @@
-//META { "name": "HideBlockedMessages" } *//
+//META { "name": "HideBlockedMessages","source":"https://raw.githubusercontent.com/CoolFroggy/HideBlockedMessages/master/HideBlockedMessages.plugin.js"} *//
 global.HideBlockedMessages = function () {
 	class HideBlockedMessages
 	{
