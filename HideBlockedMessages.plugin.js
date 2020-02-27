@@ -7,7 +7,7 @@ global.HideBlockedMessages = function () {
 		}
 
 		getDescription() {
-		  return "Compatible with new Discord update begin feb 2020.";
+		  return "Compatible with new Discord update 27feb2020.";
 		}
 
 		getAuthor() {
@@ -15,7 +15,7 @@ global.HideBlockedMessages = function () {
 		}
 
 		getVersion() {
-		  return "1";
+		  return "2";
 		}
 		
 		load() {
@@ -25,7 +25,7 @@ global.HideBlockedMessages = function () {
 		{
 			$(document).ready(
 				function() {
-					$('.groupStart-23k01U').has('.container-3FojY8').has('.blockedSystemMessage-2Rk1ek').css('display','none');
+					$('.groupStart-23k01U').has('.wrapper-2a6GCs').has('.contents-2mQqc9').has('.blockedSystemMessage-2Rk1ek').css('display','none');
 				}
 			);
 			return document.addEventListener("scroll", onLoad, true);
