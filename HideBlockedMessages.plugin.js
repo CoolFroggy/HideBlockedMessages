@@ -40,7 +40,7 @@ global.HideBlockedMessages = function () {
 	};
 	
 	onLoad = function (event) {
-		$('.groupStart-23k01U').has('.container-3FojY8').has('.blockedSystemMessage-2Rk1ek').css('display','none');
+		$('.groupStart-23k01U').has('.wrapper-2a6GCs').has('.contents-2mQqc9').has('.blockedSystemMessage-2Rk1ek').css('display','none');
 	}
 	
 	return HideBlockedMessages;
