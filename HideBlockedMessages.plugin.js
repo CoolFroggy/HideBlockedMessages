@@ -1,4 +1,4 @@
-//META { "name": "HideBlockedMessages","source":"https://raw.githubusercontent.com/CoolFroggy/HideBlockedMessages/master/HideBlockedMessages.plugin.js"} *//
+//META { "name": "HideBlockedMessages","authorId":"149955518377492481","website":"https://github.com/CoolFroggy/HideBlockedMessages","source":"https://raw.githubusercontent.com/CoolFroggy/HideBlockedMessages/master/HideBlockedMessages.plugin.js"} *//
 global.HideBlockedMessages = function () {
 	class HideBlockedMessages
 	{
@@ -33,7 +33,7 @@ global.HideBlockedMessages = function () {
 		
 		stop()
 		{
-			$('.groupStart-23k01U').has('.container-3FojY8').has('.blockedSystemMessage-2Rk1ek').css('display','grid');
+			$('.groupStart-23k01U').has('.wrapper-2a6GCs').has('.contents-2mQqc9').has('.blockedSystemMessage-2Rk1ek').css('display','grid');
 			return document.removeEventListener("scroll", onLoad, true);
 		}
 		
