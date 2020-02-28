@@ -7,7 +7,7 @@ global.HideBlockedMessages = function () {
 		}
 
 		getDescription() {
-		  return "Compatible with new Discord update 27feb2020.";
+		  return "Compatible with Discord update 28feb2020.";
 		}
 
 		getAuthor() {
@@ -15,7 +15,7 @@ global.HideBlockedMessages = function () {
 		}
 
 		getVersion() {
-		  return "1.0.1";
+		  return "1.0.2";
 		}
 		
 		load() {
@@ -25,7 +25,7 @@ global.HideBlockedMessages = function () {
 		{
 			$(document).ready(
 				function() {
-					$('.groupStart-23k01U').has('.wrapper-2a6GCs').has('.contents-2mQqc9').has('.blockedSystemMessage-2Rk1ek').css('display','none');
+					$('.groupStart-23k01U').has('.cozy-3raOZG').has('.container-3FojY8').has('.blockedSystemMessage-2Rk1ek').css('display','none');
 				}
 			);
 			return document.addEventListener("scroll", onLoad, true);
@@ -33,14 +33,14 @@ global.HideBlockedMessages = function () {
 		
 		stop()
 		{
-			$('.groupStart-23k01U').has('.wrapper-2a6GCs').has('.contents-2mQqc9').has('.blockedSystemMessage-2Rk1ek').css('display','grid');
+			$('.groupStart-23k01U').has('.cozy-3raOZG').has('.container-3FojY8').has('.blockedSystemMessage-2Rk1ek').css('display','grid');
 			return document.removeEventListener("scroll", onLoad, true);
 		}
 		
 	};
 	
 	onLoad = function (event) {
-		$('.groupStart-23k01U').has('.wrapper-2a6GCs').has('.contents-2mQqc9').has('.blockedSystemMessage-2Rk1ek').css('display','none');
+		$('.groupStart-23k01U').has('.cozy-3raOZG').has('.container-3FojY8').has('.blockedSystemMessage-2Rk1ek').css('display','none');
 	}
 	
 	return HideBlockedMessages;
